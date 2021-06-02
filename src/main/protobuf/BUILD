@@ -227,6 +227,11 @@ cc_proto_library(
     deps = [":execution_statistics_proto"],
 )
 
+#java_proto_library(
+#    name = "execution_statistics_java_proto",
+#    deps = [":execution_statistics_proto"],
+#)
+
 proto_library(
     name = "remote_execution_log_proto",
     srcs = ["remote_execution_log.proto"],
